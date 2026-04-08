@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-07",
-  "title": "One stick at a time",
-  "copyright": "Beaver, Germany (© Andyworks/Getty Images)",
+  "date": "2026-04-08",
+  "title": "The Emerald City",
+  "copyright": "Seattle, Washington (© Jim Patterson/Tandem Stills + Motion)",
   "image_url": "bing.jpg",
   "original_url": "https://www.bing.com$(echo "$JSON_RESPONSE" | jq -r .images[0].url)",
   "resolution": "1920x1080",
