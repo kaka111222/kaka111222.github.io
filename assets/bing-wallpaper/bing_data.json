@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-11",
-  "title": "Volcanic veneer",
-  "copyright": "Papagayo Beach, Lanzarote, Canary Islands, Spain (© Gavin Hellier/Getty Images)",
+  "date": "2026-04-12",
+  "title": "The first step off Earth",
+  "copyright": "City lights streak below, taken from the International Space Station (© NASA)",
   "image_url": "bing.jpg",
   "original_url": "https://www.bing.com$(echo "$JSON_RESPONSE" | jq -r .images[0].url)",
   "resolution": "1920x1080",
