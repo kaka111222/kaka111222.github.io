@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-14",
-  "title": "After the lights go down",
-  "copyright": "Milky Way over Anza-Borrego Desert State Park, California (© Kevin Key/Slworking)/Getty Images)",
+  "date": "2026-04-15",
+  "title": "Reefside roommates",
+  "copyright": "Common clownfish in a sea anemone, Raja Ampat Islands, Indonesia (© Magnus Lundgren/Nature Picture Library)",
   "image_url": "bing.jpg",
   "original_url": "https://www.bing.com$(echo "$JSON_RESPONSE" | jq -r .images[0].url)",
   "resolution": "1920x1080",
