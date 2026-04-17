@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-16",
-  "title": "Stepping inside the living canvas",
-  "copyright": "The Carrières des Lumières exhibit of Vincent Van Gogh, Les Baux-de-Provence, France (© Patrick Aventurier/Getty Images)",
+  "date": "2026-04-17",
+  "title": "Petal parade",
+  "copyright": "Skagit Valley Tulip Fields, Washington (© Alan Majchrowicz/Getty Images)",
   "image_url": "bing.jpg",
   "original_url": "https://www.bing.com$(echo "$JSON_RESPONSE" | jq -r .images[0].url)",
   "resolution": "1920x1080",
