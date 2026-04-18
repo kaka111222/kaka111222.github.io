@@ -1,0 +1,356 @@
+🌐  CCTV,#genre#
+CCTV-1 综合,http://10.26.0.23:4000/udp/239.253.254.77:8000
+CCTV-2 财经,http://10.26.0.23:4000/udp/239.253.254.232:8000
+CCTV-3 综艺,http://10.26.0.23:4000/udp/239.253.254.191:8000
+CCTV-4 亚洲,http://10.26.0.23:4000/udp/239.253.254.111:8000
+CCTV-4 欧洲,http://10.26.0.23:4000/udp/239.253.254.186:8000
+CCTV-4 美洲,http://10.26.0.23:4000/udp/239.253.254.187:8000
+CCTV-5 体育,http://10.26.0.23:4000/udp/239.253.254.192:8000
+CCTV-5+体育赛事,http://10.26.0.23:4000/udp/239.253.254.80:8000
+CCTV-6 电影,http://10.26.0.23:4000/udp/239.253.254.193:8000
+CHC家庭影院,http://10.26.0.23:4000/udp/239.253.254.152:8000
+CHC动作电影,http://10.26.0.23:4000/udp/239.253.254.153:8000
+CHC影迷电影,http://10.26.0.23:4000/udp/239.253.254.154:8000
+CCTV-7 国防军事,http://10.26.0.23:4000/udp/239.253.254.233:8000
+CCTV-8 电视剧,http://10.26.0.23:4000/udp/239.253.254.194:8000
+CCTV-9 纪录,http://10.26.0.23:4000/udp/239.253.254.79:8000
+CCTV-10 科教,http://10.26.0.23:4000/udp/239.253.254.234:8000
+CCTV-11 戏曲,http://10.26.0.23:4000/udp/239.253.254.169:8000
+CCTV-12 社会与法,http://10.26.0.23:4000/udp/239.253.254.235:8000
+CCTV-13 新闻,http://10.26.0.23:4000/udp/239.253.254.175:8000
+CCTV-14 少儿,http://10.26.0.23:4000/udp/239.253.254.236:8000
+CCTV-15 音乐,http://10.26.0.23:4000/udp/239.253.254.170:8000
+CCTV-17 农业农村,http://10.26.0.23:4000/udp/239.253.254.168:8000
+
+
+🌐  4K,#genre#
+CCTV-4K 超高清,http://10.26.0.23:4000/udp/239.253.254.122:8000
+山东卫视 4K,http://10.26.0.23:4000/udp/239.253.254.172:8000
+北京卫视 4K,http://10.26.0.23:4000/udp/239.253.254.200:8000
+东方卫视 4K,http://10.26.0.23:4000/udp/239.253.254.176:8000
+江苏卫视 4K,http://10.26.0.23:4000/udp/239.253.254.133:8000
+浙江卫视 4K,http://10.26.0.23:4000/udp/239.253.254.27:8000
+广东卫视 4K,http://10.26.0.23:4000/udp/239.253.254.108:8000
+深圳卫视 4K,http://10.26.0.23:4000/udp/239.253.254.61:8000
+湖南卫视 4K,http://10.26.0.23:4000/udp/239.253.254.28:8000
+四川卫视 4K,http://10.26.0.23:4000/udp/239.253.254.123:8000
+爱上4K,http://10.26.0.23:4000/udp/239.253.254.102:8000
+苏州4K,https://live-auth.51kandianshi.com/szgd/csztv4k_4k.m3u8
+
+
+🌐  卫视,#genre#
+凤凰资讯,http://tv.groupshare.com.cn/fhtv?id=info&prefix=86&phone=13256889895&pwd=Fan2345678
+凤凰卫视,http://tv.groupshare.com.cn/fhtv?id=cn&prefix=86&phone=13256889895&pwd=Fan2345678
+凤凰香港,http://tv.groupshare.com.cn/fhtv?id=hk&prefix=86&phone=13256889895&pwd=Fan2345678
+山东卫视,http://10.26.0.23:4000/udp/239.253.254.78:8000
+北京卫视,http://10.26.0.23:4000/udp/239.253.254.85:8000
+东方卫视,http://10.26.0.23:4000/udp/239.253.254.86:8000
+江苏卫视,http://10.26.0.23:4000/udp/239.253.254.83:8000
+浙江卫视,http://10.26.0.23:4000/udp/239.253.254.84:8000
+广东卫视,http://10.26.0.23:4000/udp/239.253.254.90:8000
+深圳卫视,http://10.26.0.23:4000/udp/239.253.254.91:8000
+湖南卫视,http://10.26.0.23:4000/udp/239.253.254.82:8000
+四川卫视,http://10.26.0.23:4000/udp/239.253.254.180:8000
+东南卫视,http://10.26.0.23:4000/udp/239.253.254.105:8000
+广西卫视,http://10.26.0.23:4000/udp/239.253.254.197:8000
+海南卫视,http://10.26.0.23:4000/udp/239.253.254.179:8000
+黑龙江卫视,http://10.26.0.23:4000/udp/239.253.254.93:8000
+吉林卫视,http://10.26.0.23:4000/udp/239.253.254.173:8000
+辽宁卫视,http://10.26.0.23:4000/udp/239.253.254.92:8000
+北京纪实科教,http://10.26.0.23:4000/udp/239.253.254.165:8000
+天津卫视,http://10.26.0.23:4000/udp/239.253.254.89:8000
+河北卫视,http://10.26.0.23:4000/udp/239.253.254.112:8000
+河南卫视,http://10.26.0.23:4000/udp/239.253.254.190:8000
+金鹰纪实,http://10.26.0.23:4000/udp/239.253.254.103:8000
+湖北卫视,http://10.26.0.23:4000/udp/239.253.254.88:8000
+安徽卫视,http://10.26.0.23:4000/udp/239.253.254.87:8000
+江西卫视,http://10.26.0.23:4000/udp/239.253.254.47:8000
+重庆卫视,http://10.26.0.23:4000/udp/239.253.254.38:8000
+云南卫视,http://10.26.0.23:4000/udp/239.253.254.196:8000
+贵州卫视,http://10.26.0.23:4000/udp/239.253.254.113:8000
+新疆卫视,http://10.26.0.23:4000/udp/239.253.254.60:8000
+西藏卫视,http://10.26.0.23:4000/udp/239.253.254.56:8000
+青海卫视,http://10.26.0.23:4000/udp/239.253.254.195:8000
+甘肃卫视,http://10.26.0.23:4000/udp/239.253.254.74:8000
+宁夏卫视,http://10.26.0.23:4000/udp/239.253.254.150:8000
+兵团卫视,http://10.26.0.23:4000/udp/239.253.254.57:8000
+中国交通,http://10.26.0.23:4000/udp/239.253.254.177:8000
+山西卫视,http://10.26.0.23:4000/udp/239.253.254.48:8000
+陕西卫视,http://10.26.0.23:4000/udp/239.253.254.49:8000
+延边卫视,http://10.26.0.23:4000/udp/239.253.254.121:8000
+内蒙古卫视,http://10.26.0.23:4000/udp/239.253.254.58:8000
+三沙卫视,http://10.26.0.23:4000/udp/239.253.254.171:8000
+农林卫视,http://10.26.0.23:4000/udp/239.253.254.70:8000
+CETV1,http://10.26.0.23:4000/udp/239.253.254.110:8000
+CETV2,http://10.26.0.23:4000/udp/239.253.254.107:8000
+CETV4,http://10.26.0.23:4000/udp/239.253.254.116:8000
+山东教育,http://10.26.0.23:4000/udp/239.253.254.59:8000
+
+
+🌐  青岛,#genre#
+QTV-1,http://10.26.0.23:4000/udp/239.253.254.249:8000
+QTV-2,http://10.26.0.23:4000/udp/239.253.254.250:8000
+QTV-3,http://10.26.0.23:4000/udp/239.253.254.251:8000
+QTV-4,http://10.26.0.23:4000/udp/239.253.254.252:8000
+QTV-5,http://10.26.0.23:4000/udp/239.253.254.254:8000
+崂山,http://10.26.0.23:4000/udp/239.253.254.242:8000
+平度,http://10.26.0.23:4000/udp/239.253.254.248:8000
+莱西,http://10.26.0.23:4000/udp/239.253.254.247:8000
+胶州,http://10.26.0.23:4000/udp/239.253.254.246:8000
+即墨,http://10.26.0.23:4000/udp/239.253.254.245:8000
+黄岛,http://10.26.0.23:4000/udp/239.253.254.243:8000
+黄岛生活,http://10.26.0.23:4000/udp/239.253.254.244:8000
+日照综合,http://10.26.0.123:4000/udp/239.253.224.254:8000
+日照科教,http://10.26.0.123:4000/udp/239.253.224.253:8000
+日照公共,http://10.26.0.123:4000/udp/239.253.224.250:8000
+岚山电视台,http://10.26.0.123:4000/udp/239.253.224.252:8000
+莒县电视台,http://10.26.0.123:4000/udp/239.253.224.251:8000
+
+🌐  山东,#genre#
+山东体育,http://10.26.0.23:4000/udp/239.253.254.22:8000
+山东齐鲁,http://10.26.0.23:4000/udp/239.253.254.114:8000
+山东生活,http://10.26.0.23:4000/udp/239.253.254.151:8000
+山东综艺,http://10.26.0.23:4000/udp/239.253.254.159:8000
+山东文旅,http://10.26.0.23:4000/udp/239.253.254.160:8000
+山东新闻,http://10.26.0.23:4000/udp/239.253.254.23:8000
+山东农科,http://10.26.0.23:4000/udp/239.253.254.24:8000
+海洋频道,http://10.26.0.23:4000/udp/239.253.254.67:8000
+
+🌐  专业,#genre#
+求索纪录,http://10.26.0.23:4000/udp/239.253.254.231:8000
+梨园频道,http://10.26.0.23:4000/udp/239.253.254.139:8000
+武术世界,http://10.26.0.23:4000/udp/239.253.254.140:8000
+文物宝库,http://10.26.0.23:4000/udp/239.253.254.141:8000
+乐游,http://10.26.0.23:4000/udp/239.253.254.97:8000
+生活时尚,http://10.26.0.23:4000/udp/239.253.254.99:8000
+精彩影视,http://10.26.0.23:4000/udp/239.253.254.142:8000
+都市剧场,http://10.26.0.23:4000/udp/239.253.254.98:8000
+都市剧场,http://10.26.0.23:4000/udp/239.253.254.178:8000
+法治天地,http://10.26.0.23:4000/udp/239.253.254.96:8000
+金色学堂,http://10.26.0.23:4000/udp/239.253.254.101:8000
+东方财经,http://10.26.0.23:4000/udp/239.253.254.94:8000
+四海钓鱼,http://10.26.0.23:4000/udp/239.253.254.118:8000
+生态环境,http://10.26.0.23:4000/udp/239.253.254.119:8000
+中华特产,http://10.26.0.23:4000/udp/239.253.254.76:8000
+汽摩频道,http://10.26.0.23:4000/udp/239.253.254.161:8000
+财富天下,http://10.26.0.23:4000/udp/239.253.254.230:8000
+先锋乒羽,http://10.26.0.23:4000/udp/239.253.254.155:8000
+茶频道,http://10.26.0.23:4000/udp/239.253.254.143:8000
+快乐垂钓,http://10.26.0.23:4000/udp/239.253.254.144:8000
+发现之旅,http://10.26.0.23:4000/udp/239.253.254.162:8000
+老故事,http://10.26.0.23:4000/udp/239.253.254.164:8000
+游戏风云,http://10.26.0.23:4000/udp/239.253.254.95:8000
+先锋乒羽,http://10.26.0.23:4000/udp/239.253.254.145:8000
+书画频道,http://10.26.0.23:4000/udp/239.253.254.146:8000
+财富天下,http://10.26.0.23:4000/udp/239.253.254.147:8000
+环球旅游,http://10.26.0.23:4000/udp/239.253.254.71:8000
+山东经济广播,http://10.26.0.23:4000/udp/239.253.254.166:8000
+生态环境标清,http://10.26.0.23:4000/udp/239.253.254.75:8000
+
+🌐  电影,#genre#
+精选电影,http://10.26.0.23:4000/udp/239.253.254.210:8000
+爱电影,http://10.26.0.23:4000/udp/239.253.254.128:8000
+经典电影,http://10.26.0.23:4000/udp/239.253.254.126:8000
+红色影院,http://10.26.0.23:4000/udp/239.253.254.209:8000
+星影,http://10.26.0.23:4000/udp/239.253.254.216:8000
+喜剧影院,http://10.26.0.23:4000/udp/239.253.254.220:8000
+动作影院,http://10.26.0.23:4000/udp/239.253.254.221:8000
+家庭电影,http://10.26.0.23:4000/udp/239.253.254.218:8000
+光影,http://10.26.0.23:4000/udp/239.253.254.223:8000
+野外,http://10.26.0.23:4000/udp/239.253.254.137:8000
+音乐现场,http://10.26.0.23:4000/udp/239.253.254.202:8000
+爱综艺,http://10.26.0.23:4000/udp/239.253.254.129:8000
+重温经典影视,http://10.26.0.23:4000/udp/239.253.254.81:8000
+经典剧场,http://10.26.0.23:4000/udp/239.253.254.211:8000
+武侠剧场,http://10.26.0.23:4000/udp/239.253.254.212:8000
+相声小品,http://10.26.0.23:4000/udp/239.253.254.136:8000
+法制,http://10.26.0.23:4000/udp/239.253.254.138:8000
+爱体育,http://10.26.0.23:4000/udp/239.253.254.109:8000
+爱体育,http://10.26.0.23:4000/udp/239.253.254.131:8000
+爱大剧,http://10.26.0.23:4000/udp/239.253.254.132:8000
+谍战剧场,http://10.26.0.23:4000/udp/239.253.254.135:8000
+军旅剧场,http://10.26.0.23:4000/udp/239.253.254.203:8000
+古装剧场,http://10.26.0.23:4000/udp/239.253.254.205:8000
+收视指南,http://10.26.0.23:4000/udp/239.253.254.124:8000
+热播剧场,http://10.26.0.23:4000/udp/239.253.254.125:8000
+城市剧场,http://10.26.0.23:4000/udp/239.253.254.201:8000
+足球,http://10.26.0.23:4000/udp/239.253.254.204:8000
+军事,http://10.26.0.23:4000/udp/239.253.254.207:8000
+地理,http://10.26.0.23:4000/udp/239.253.254.208:8000
+美人,http://10.26.0.23:4000/udp/239.253.254.213:8000
+鉴赏,http://10.26.0.23:4000/udp/239.253.254.214:8000
+国学,http://10.26.0.23:4000/udp/239.253.254.215:8000
+墨宝,http://10.26.0.23:4000/udp/239.253.254.222:8000
+戏曲,http://10.26.0.23:4000/udp/239.253.254.224:8000
+爱生活,http://10.26.0.23:4000/udp/239.253.254.225:8000
+解密,http://10.26.0.23:4000/udp/239.253.254.226:8000
+武术,http://10.26.0.23:4000/udp/239.253.254.227:8000
+美妆,http://10.26.0.23:4000/udp/239.253.254.228:8000
+
+
+🌏  市县,#genre#
+长岛,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001090/index.m3u8
+蓬莱,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001088/index.m3u8
+龙口,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001005/index.m3u8
+招远,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001113/index.m3u8
+栖霞,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001055/index.m3u8
+牟平,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001076/index.m3u8
+牟平生活,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001077/index.m3u8
+烟台新闻综合,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000280/index.m3u8
+烟台经济科技,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000282/index.m3u8
+烟台影视,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000283/index.m3u8
+烟台公共,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000281/index.m3u8
+
+威海新闻综合,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000274/index.m3u8
+威海都市生活,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000275/index.m3u8
+威海海洋,http://l2.weihai.tv:8081/hls/x8b19NoyEG.m3u8
+海阳,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001091/index.m3u8
+海阳综艺,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001092/index.m3u8
+荣成,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001053/index.m3u8
+乳山,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001049/index.m3u8
+文登,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001017/index.m3u8
+
+潍坊,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000215/index.m3u8
+潍坊经济生活,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000216/index.m3u8
+潍坊公共,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000217/index.m3u8
+潍坊科教文化,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000218/index.m3u8
+潍坊高新区,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001106/index.m3u8
+高密,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001089/index.m3u8
+青州文化旅游,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001057/index.m3u8
+青州,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001042/index.m3u8
+奎文,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001027/index.m3u8
+临朐,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001085/index.m3u8
+寿光,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001000/index.m3u8
+寿光,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000702/index.m3u8
+寿光蔬菜,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001045/index.m3u8
+安丘,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001015/index.m3u8
+昌乐,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001033/index.m3u8
+昌邑,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001083/index.m3u8
+诸城,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001004/index.m3u8
+
+济南新闻综合,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00004000/index.m3u8
+德州经济生活,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000207/index.m3u8
+武城,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001059/index.m3u8
+新泰,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001029/index.m3u8
+
+🌍 港台,#genre#
+澳门莲花,http://1033946631.cloudvdn.com/a.m3u8?domain=live-hdl.macaulotustv.com&player=1&streamid=lotustv:lotustv/macaulotustv&v3=1
+法国时装4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
+法国时装,https://fashs043.cloudycdn.services/scte/africa/playlist.m3u8
+FashionTV,http://80.94.54.42/fashiontv/stream/playlist.m3u8
+FashionTV,http://lb.streaming.sk/fashiontv/stream/playlist.m3u8
+FashionTV,http://lb.streaming.sk/fashiontv/stream/chunklist_w1702070444.m3u8?zshijd
+FashionTV,http://lb.streaming.sk/fashiontv/stream/chunklist_w1906011378.m3u8
+Love Nature,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
+纬来体育,rtmp://f13h.mine.nu/sat/tv721
+纬来育乐,rtmp://f13h.mine.nu/sat/tv701
+公视,rtmp://f13h.mine.nu/sat/tv771
+民视,rtmp://f13h.mine.nu/sat/tv051
+中视,rtmp://f13h.mine.nu/sat/tv091
+华视,rtmp://f13h.mine.nu/sat/tv111
+台视,rtmp://f13h.mine.nu/sat/tv071
+东森超视,rtmp://f13h.mine.nu/sat/tv331
+momoTV,rtmp://f13h.mine.nu/sat/tv761
+DAZN体育1,rtmp://f13h.mine.nu/sat/tv731
+DAZN体育2,rtmp://f13h.mine.nu/sat/tv741
+龙华洋片,https://cdn8.163189.xyz/live/lhyp/stream.m3u8
+龙华电影,https://cdn8.163189.xyz/live/lhdy/stream.m3u8
+龙华经典,https://cdn8.163189.xyz/live/lhjd/stream.m3u8
+龙华卡通,https://cdn8.163189.xyz/live/lhkt/stream.m3u8
+龙华偶像,https://cdn8.163189.xyz/live/lhox/stream.m3u8
+龙华日韩,https://cdn8.163189.xyz/live/lhrh/stream.m3u8
+龙华戏剧,https://cdn8.163189.xyz/live/lhxj/stream.m3u8
+番薯111,http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
+番薯111,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
+
+新加坡亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+新加坡亚洲新闻,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
+半岛电视台,https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+半岛电视台,http://live-hls-web-aje.getaj.net/AJE/01.m3u8
+半岛电视台2,http://live-hls-web-aja.getaj.net/AJA/02.m3u8
+
+爱自然4K,P2p://starvod.xyz:19806/ba87030233c046908d7c7bfaa3ff9df6.ts
+爱自然4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8$肥羊
+艺术音乐4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8$肥羊yemingjkl
+
+🌍  浙江,#genre#
+浙江卫视,https://zwebl02.cztv.com/live/channel011080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-ec2283c392de5aa07c72e770576478bb 
+浙江国际,https://zwebl02.cztv.com/live/channel101080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-895310d00bcd28384a9238088f08375a
+浙江钱江,https://zwebl02.cztv.com/live/channel021080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-00cc26403bae15d2d0ef1c4380e4664f 
+浙江经济,https://zwebl02.cztv.com/live/channel031080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-b4fe6682a137b6739ec212c93c5a8def 
+浙江科教,https://zwebl02.cztv.com/live/channel041080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-9c4515bba4ac0ad426356b260449477f 
+浙江民生,https://zwebl02.cztv.com/live/channel061080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-282c3b532279f2b8bad8ebde1b41632f 
+浙江新闻,https://zwebl02.cztv.com/live/channel071080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-d7a412e81007d77a8c8e9b582efd7ee3 
+浙江少儿,https://zwebl02.cztv.com/live/channel081080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-668e5a5a00e74f14f426cc55210a4ff9  
+之江纪录,https://zwebl02.cztv.com/live/channel121080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-efed1fc72c5cdbd9a29cd69eaaddfee1 
+
+🌍  景区,#genre#
+青岛五四广场,http://video11.qtv.com.cn/aqdwsgc2022/manifest.m3u8
+青岛奥帆中心,http://video10.qtv.com.cn/aqdafzx2022/manifest.m3u8
+青岛太平角,http://video10.qtv.com.cn/aqdtp2022/manifest.m3u8
+青岛太平湾,http://video10.qtv.com.cn/sxt203/manifest.m3u8
+青岛快速路1,http://video10.qtv.com.cn/sxt1/manifest.m3u8
+青岛快速路2,http://video10.qtv.com.cn/sxt3/manifest.m3u8
+青岛快速路3,http://video10.qtv.com.cn/sxt2/manifest.m3u8
+都江堰青青,http://gcalic.v.myalicdn.com/gc/xiongmao20_1/index.m3u8
+都江堰妃妃,http://gcalic.v.myalicdn.com/gc/xiongmao13_1/index.m3u8
+都江堰娅祥,http://gcalic.v.myalicdn.com/gc/xiongmao15_1/index.m3u8
+都江堰瑞瑞,http://gcalic.v.myalicdn.com/gc/xiongmao11_1/index.m3u8
+都江堰英英,http://gcalic.v.myalicdn.com/gc/xiongmao16_1/index.m3u8
+都江堰壹壹玖玖,http://gcalic.v.myalicdn.com/gc/xiongmao14_1/index.m3u8
+都江堰水秀,http://gcalic.v.myalicdn.com/gc/xiongmao12_1/index.m3u8
+怡然②,http://gcalic.v.myalicdn.com/gc/xiongmao18_1/index.m3u8
+基地幼年园①,http://gcalic.v.myalicdn.com/gc/xiongmao03_1/index.m3u8
+基地幼年园②,http://gcalic.v.myalicdn.com/gc/xiongmao04_1/index.m3u8
+基地母子园①,http://gcalic.v.myalicdn.com/gc/xiongmao07_1/index.m3u8
+基地母子园②,http://gcalic.v.myalicdn.com/gc/xiongmao08_1/index.m3u8
+基地幼儿园①,http://gcalic.v.myalicdn.com/gc/xiongmao05_1/index.m3u8
+基地幼儿园②,http://gcalic.v.myalicdn.com/gc/xiongmao06_1/index.m3u8
+基地成年园①,http://gcalic.v.myalicdn.com/gc/xiongmao01_1/index.m3u8
+基地成年园②,http://gcalic.v.myalicdn.com/gc/xiongmao02_1/index.m3u8
+基地别墅①,http://gcalic.v.myalicdn.com/gc/xiongmao09_1/index.m3u8
+基地别墅①,http://gccnchwc.v.cdn20.com/gc/xiongmao09_1.flv
+基地别墅②,http://gcalic.v.myalicdn.com/gc/xiongmao10_1/index.m3u8
+
+大丰麋鹿,http://gcalic.v.myalicdn.com/gc/xiongmao23_1/index.m3u8
+白马雪山,http://gcalic.v.myalicdn.com/gc/xiongmao24_1/index.m3u8
+成都高清,http://gcalic.v.myalicdn.com/gc/ipanda_1td/index.m3u8
+都江堰高清,http://gcalic.v.myalicdn.com/gc/ipanda1000_1td/index.m3u8
+
+🏮  春晚,#genre#
+春晚2024,https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
+春晚2023,https://txmov2.a.kwimgs.com/bs3/video-hls/5251197255879398624_hlshd15.m3u8
+春晚2022,http://txmov2.a.kwimgs.com/upic/2022/02/01/11/BMjAyMjAyMDExMTEwMjNfNDAzMDAxOTlfNjYzNzA4MTk4NzNfMF8z_b_B898cc7ddd0025bf54ddb18ec1f723c84.mp4
+春晚2021,http://txmov2.a.kwimgs.com/upic/2022/01/30/17/BMjAyMjAxMzAxNzE4NTJfNDAzMDAxOTlfNjYxNzUzOTg3NjlfMF8z_b_Be41d9503181d7b0608a839ed401e02c2.mp4
+春晚2020,http://txmov2.a.kwimgs.com/upic/2022/01/30/17/BMjAyMjAxMzAxNzA5NDdfNDAzMDAxOTlfNjYxNzQ2MDAyMTFfMF8z_b_B5d51d9564c5670dc66faeba20aa7af3f.mp4
+春晚2020,https://txmov2.a.kwimgs.com/bs3/video-hls/5248101009010430183_hlshd15.m3u8
+春晚2019,https://txmov2.a.kwimgs.com/bs3/video-hls/5222205336887088723_hlshd15.m3u8
+春晚2014,https://txmov2.a.kwimgs.com/bs3/video-hls/5245286283437869627_hlshd15.m3u8
+春晚2009,https://txmov2.a.kwimgs.com/bs3/video-hls/5210946337266019890_hlshd15.m3u8
+春晚2008,https://txmov2.a.kwimgs.com/bs3/video-hls/5194902262344826321_hlshd15.m3u8
+春晚2007,https://txmov2.a.kwimgs.com/bs3/video-hls/5219953534755647343_hlshd15.m3u8
+春晚2006,https://txmov2.a.kwimgs.com/bs3/video-hls/5194339310474320155_hlshd15.m3u8
+春晚2005,https://txmov2.a.kwimgs.com/bs3/video-hls/5254012008863954469_hlshd15.m3u8
+春晚2004,https://txmov2.a.kwimgs.com/bs3/video-hls/5223894184413450769_hlshd15.m3u8
+春晚2002,https://txmov2.a.kwimgs.com/bs3/video-hls/5255700858599864364_hlshd15.m3u8
+春晚2001,https://txmov2.a.kwimgs.com/bs3/video-hls/5228960735897942616_hlshd15.m3u8
+春晚2000,https://txmov2.a.kwimgs.com/bs3/video-hls/5216294359327079321_hlshd15.m3u8
+春晚1999,https://txmov2.a.kwimgs.com/bs3/video-hls/5258234133675308186_hlshd15.m3u8
+春晚1998,https://txmov2.a.kwimgs.com/bs3/video-hls/5225864507896315430_hlshd15.m3u8
+春晚1997,https://txmov2.a.kwimgs.com/bs3/video-hls/5230649583590411879_hlshd15.m3u8
+春晚1995,https://txmov2.a.kwimgs.com/bs3/video-hls/5255137907893179578_hlshd15.m3u8
+春晚1994,https://txmov2.a.kwimgs.com/bs3/video-hls/5197154061406974711_hlshd15.m3u8
+春晚1993,https://txmov2.a.kwimgs.com/bs3/video-hls/5217420261875933947_hlshd15.m3u8
+春晚1992,https://txmov2.a.kwimgs.com/bs3/video-hls/5256826755663896297_hlshd15.m3u8
+春晚1991,https://txmov2.a.kwimgs.com/bs3/video-hls/5210664837540712798_hlshd15.m3u8
+春晚1989,http://txmov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMTVfNDAzMDAxOTlfNjYyNzMyNzQ2OTlfMF8z_b_Be477b27b9ce655d2372df56a5a3d96ef.mp4
+春晚1988,https://txmov2.a.kwimgs.com/bs3/video-hls/5216575810935394655_hlsb.m3u8
+春晚1987,https://txmov2.a.kwimgs.com/bs3/video-hls/5195746663405928031_hlsb.m3u8
+春晚1986,https://txmov2.a.kwimgs.com/bs3/video-hls/5231493982164619599_hlshd15.m3u8
+春晚1985,http://txmov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDFfNDAzMDAxOTlfNjYyNzMyNTAwMzJfMF8z_b_Be73c5abcbc0eeb2ec9fce6842e1362a4.mp4
+春晚1984,http://txmov2.a.kwimgs.com/upic/2022/01/31/15/BMjAyMjAxMzExNTU5NTRfNDAzMDAxOTlfNjYyNzMyMzg3MTRfMF8z_b_B192356dadbc90d207ba16964d4c2914c.mp4
+春晚1983,https://alimov2.a.kwimgs.com/upic/2022/01/31/15/BMjAyMjAxMzExNTU5MTRfNDAzMDAxOTlfNjYyNzMxNjcwMjBfMF8z_b_Beb3bda599f76c60c463c433ca7460153.mp4
+网络春晚2024,https://ikcdn01.ikzybf.com/20240205/QBNgom4j/2000kb/hls/index.m3u8
+
+
+
