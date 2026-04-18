@@ -1,0 +1,61 @@
+name: 6:00,18:00 同步 EPG
+
+on:
+  schedule:
+    - cron: '0 10,22 * * *'  # 每天 UTC 10:00,22:00 (北京时间 6:00,18:00)
+  workflow_dispatch:
+
+jobs:
+  sync-epg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write      # 添加 pages 权限
+      id-token: write   # 添加 id-token 权限
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Force Update EPG file and README
+        run: |
+          mkdir -p epg
+          rm -f ./epg/seven-days.xml.gz
+          curl -L -o ./epg/seven-days.xml.gz https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
+          curl -L -o ./README.md https://raw.githubusercontent.com/plsy1/epg/main/README.md
+          echo "EPG文件信息:"
+          ls -lh ./epg/seven-days.xml.gz
+          echo "README.md文件信息:"
+          ls -lh ./README.md
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Commit and Push
+        run: |
+          git add ./epg/seven-days.xml.gz
+          git add ./README.md
+          
+          if git diff --cached --quiet; then
+            echo "没有检测到文件变化，跳过提交"
+          else
+            git commit -m "Auto Force Update EPG and README $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git push origin HEAD:master
+            echo "✅ EPG文件和README.md已更新并推送"
+          fi
+
+      # 👇 新增：部署到 GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+        
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
