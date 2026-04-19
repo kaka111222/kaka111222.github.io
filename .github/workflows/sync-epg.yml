@@ -10,13 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pages: write      # 添加 pages 权限
-      id-token: write   # 添加 id-token 权限
+      pages: write
+      id-token: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main  # 改为 main
 
       - name: Force Update EPG file and README
         run: |
@@ -34,6 +35,10 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
+      - name: Pull latest changes
+        run: |
+          git pull origin main --rebase  # 先拉取最新更改
+
       - name: Commit and Push
         run: |
           git add ./epg/seven-days.xml.gz
@@ -43,11 +48,11 @@ jobs:
             echo "没有检测到文件变化，跳过提交"
           else
             git commit -m "Auto Force Update EPG and README $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-            git push origin HEAD:master
+            git push origin main  # 改为 main
             echo "✅ EPG文件和README.md已更新并推送"
           fi
 
-      # 👇 新增：部署到 GitHub Pages
+      # 部署步骤
       - name: Setup Pages
         uses: actions/configure-pages@v5
         
