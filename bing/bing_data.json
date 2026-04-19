@@ -1,0 +1,9 @@
+{
+  "date": "2026-04-19",
+  "title": "Stories start here",
+  "copyright": "Books in the children's section of The New York Public Library, New York (© Ken Welsh/Alamy)",
+  "image_url": "bing/bing.jpg",
+  "original_url": "https://www.bing.com$(echo "$JSON_RESPONSE" | jq -r .images[0].url)",
+  "resolution": "1920x1080",
+  "compressed": true
+}
