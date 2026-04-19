@@ -1,0 +1,9 @@
+{
+  "date": "2026-04-19",
+  "title": "The silence of unfinished giants",
+  "copyright": "Moai statue quarry, Rano Raraku, Easter Island, Chile (© Gavin Hellier/Alamy)",
+  "image_url": "bing.jpg",
+  "original_url": "https://www.bing.com$(echo "$JSON_RESPONSE" | jq -r .images[0].url)",
+  "resolution": "1920x1080",
+  "compressed": true
+}
