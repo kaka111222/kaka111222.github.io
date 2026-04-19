@@ -154,35 +154,39 @@ jobs:
         echo "  - 质量: 适合网页和桌面使用"
 
     - name: Commit and Push Changes
-      run: |
-        # 添加更改的文件
-        git add bing.jpg
-        git add assets/bing-wallpaper/bing_info.txt
-        git add assets/bing-wallpaper/bing_data.json
-        
-        # 检查是否有文件被修改
-        if git status --porcelain | grep -q "M\|A"; then
-          DATE=$(date +'%Y年%m月%d日')
-          if [ -f "assets/bing-wallpaper/bing_info.txt" ]; then
-            IMAGE_TITLE=$(grep "标题:" assets/bing-wallpaper/bing_info.txt | head -1 | cut -d: -f2- | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
-          else
-            IMAGE_TITLE="必应壁纸"
-          fi
-          
-          # 获取压缩信息
-          IMAGE_SIZE=$(du -h bing.jpg | cut -f1)
-          IMAGE_RES=$(identify -format "%wx%h" bing.jpg 2>/dev/null || echo "1920x1080")
-          
-          COMMIT_MSG="更新必应壁纸 [$DATE] - ${IMAGE_TITLE:0:30} (${IMAGE_RES} - ${IMAGE_SIZE})"
-          git commit -m "$COMMIT_MSG"
-          git push origin master
-          
-          echo "✅ 壁纸已更新并压缩成功！"
-          echo "📁 文件信息:"
-          echo "  - 位置: 根目录/bing.jpg"
-          echo "  - 分辨率: ${IMAGE_RES}"
-          echo "  - 大小: ${IMAGE_SIZE}"
-          echo "  - 质量: 适合网页展示"
-        else
-          echo "没有文件被修改，跳过提交"
-        fi
+     - name: Commit and Push Changes
+  run: |
+    # 添加更改的文件
+    git add bing.jpg
+    git add assets/bing-wallpaper/bing_info.txt
+    git add assets/bing-wallpaper/bing_data.json
+    git add assets/bing-wallpaper/archive/
+    
+    # 检查是否有文件被修改
+    if git status --porcelain | grep -q "."; then
+      DATE=$(date +'%Y年%m月%d日')
+      if [ -f "assets/bing-wallpaper/bing_info.txt" ]; then
+        IMAGE_TITLE=$(grep "标题:" assets/bing-wallpaper/bing_info.txt | head -1 | cut -d: -f2- | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+      else
+        IMAGE_TITLE="必应壁纸"
+      fi
+      
+      IMAGE_SIZE=$(du -h bing.jpg | cut -f1)
+      IMAGE_RES=$(identify -format "%wx%h" bing.jpg 2>/dev/null || echo "1920x1080")
+      
+      COMMIT_MSG="更新必应壁纸 [$DATE] - ${IMAGE_TITLE:0:30} (${IMAGE_RES} - ${IMAGE_SIZE})"
+      git commit -m "$COMMIT_MSG"
+      git push origin master
+      
+      echo "✅ 壁纸已更新并压缩成功！"
+      echo "📁 文件信息:"
+      echo "  - 位置: 根目录/bing.jpg"
+      echo "  - 分辨率: ${IMAGE_RES}"
+      echo "  - 大小: ${IMAGE_SIZE}"
+    else
+      echo "没有检测到文件变化，尝试强制提交..."
+      # 强制提交（即使没有变化也提交）
+      git commit --allow-empty -m "强制更新: 重新获取壁纸"
+      git push origin master
+    fi
+
