@@ -14,8 +14,6 @@ jobs:
     
     permissions:
       contents: write
-      pages: write
-      id-token: write
 
     steps:
     - name: Checkout repository
@@ -46,22 +44,30 @@ jobs:
     - name: Create directories
       run: |
         mkdir -p bing
-        mkdir -p assets/bing-wallpaper/archive
+        mkdir -p bing/archive
+
+    - name: Move existing archive from assets to bing (one-time migration)
+      run: |
+        if [ -d "assets/bing-wallpaper/archive" ] && [ "$(ls -A assets/bing-wallpaper/archive)" ]; then
+          echo "移动存档文件到 bing/archive/"
+          cp -r assets/bing-wallpaper/archive/* bing/archive/ 2>/dev/null || true
+          echo "✅ 已移动存档文件"
+        fi
 
     - name: Archive previous wallpaper
       run: |
         if [ -f "bing/bing.jpg" ]; then
           DATE=$(date +'%Y%m%d')
-          cp bing/bing.jpg "assets/bing-wallpaper/archive/bing_${DATE}.jpg"
-          echo "已存档今日壁纸到 assets/bing-wallpaper/archive/bing_${DATE}.jpg"
+          cp bing/bing.jpg "bing/archive/bing_${DATE}.jpg"
+          echo "已存档今日壁纸到 bing/archive/bing_${DATE}.jpg"
         fi
 
     - name: Clean up old files
       run: |
         echo "清理旧文件..."
         rm -f bing/bing.jpg
-        rm -f assets/bing-wallpaper/bing_info.txt
-        rm -f assets/bing-wallpaper/bing_data.json
+        rm -f bing/bing_info.txt
+        rm -f bing/bing_data.json
 
     - name: Download Today's Bing Wallpaper
       run: |
@@ -102,15 +108,15 @@ jobs:
         COPYRIGHT=$(echo "$JSON_RESPONSE" | jq -r '.images[0].copyright')
         TITLE=$(echo "$JSON_RESPONSE" | jq -r '.images[0].title')
         
-        echo "必应每日壁纸 - $DATE" > assets/bing-wallpaper/bing_info.txt
-        echo "标题: $TITLE" >> assets/bing-wallpaper/bing_info.txt
-        echo "版权信息: $COPYRIGHT" >> assets/bing-wallpaper/bing_info.txt
-        echo "原始链接: https://www.bing.com$(echo "$JSON_RESPONSE" | jq -r '.images[0].url')" >> assets/bing-wallpaper/bing_info.txt
-        echo "下载时间: $(date +'%Y-%m-%d %H:%M:%S UTC%z')" >> assets/bing-wallpaper/bing_info.txt
-        echo "分辨率: 1920×1080" >> assets/bing-wallpaper/bing_info.txt
+        echo "必应每日壁纸 - $DATE" > bing/bing_info.txt
+        echo "标题: $TITLE" >> bing/bing_info.txt
+        echo "版权信息: $COPYRIGHT" >> bing/bing_info.txt
+        echo "原始链接: https://www.bing.com$(echo "$JSON_RESPONSE" | jq -r '.images[0].url')" >> bing/bing_info.txt
+        echo "下载时间: $(date +'%Y-%m-%d %H:%M:%S UTC%z')" >> bing/bing_info.txt
+        echo "分辨率: 1920×1080" >> bing/bing_info.txt
         
         FILE_SIZE=$(stat -f%z bing/bing.jpg 2>/dev/null || stat -c%s bing/bing.jpg 2>/dev/null)
-        echo "文件大小: $((FILE_SIZE/1024)) KB" >> assets/bing-wallpaper/bing_info.txt
+        echo "文件大小: $((FILE_SIZE/1024)) KB" >> bing/bing_info.txt
         
         echo '{
           "date": "'$DATE'",
@@ -120,7 +126,7 @@ jobs:
           "original_url": "https://www.bing.com$(echo "$JSON_RESPONSE" | jq -r '.images[0].url')",
           "resolution": "1920x1080",
           "compressed": true
-        }' > assets/bing-wallpaper/bing_data.json
+        }' > bing/bing_data.json
 
     - name: Verify files
       run: |
@@ -134,24 +140,24 @@ jobs:
         echo "3. 文件大小对比:"
         echo "  - 当前文件: $(du -h bing/bing.jpg | cut -f1)"
         echo ""
-        echo "4. assets/bing-wallpaper/ 目录:"
-        ls -lh assets/bing-wallpaper/
+        echo "4. bing/ 目录:"
+        ls -lh bing/
         echo ""
-        echo "5. 壁纸预览信息:"
+        echo "5. bing/archive/ 目录:"
+        ls -lh bing/archive/ 2>/dev/null || echo "暂无存档"
+        echo ""
+        echo "6. 壁纸预览信息:"
         echo "  - 分辨率: $(identify -format "%wx%h" bing/bing.jpg)"
         echo "  - 大小: $(du -h bing/bing.jpg | cut -f1)"
 
     - name: Commit and Push Changes
       run: |
-        git add bing/bing.jpg
-        git add assets/bing-wallpaper/bing_info.txt
-        git add assets/bing-wallpaper/bing_data.json
-        git add assets/bing-wallpaper/archive/
+        git add bing/
         
         if git status --porcelain | grep -q "."; then
           DATE=$(date +'%Y年%m月%d日')
-          if [ -f "assets/bing-wallpaper/bing_info.txt" ]; then
-            IMAGE_TITLE=$(grep "标题:" assets/bing-wallpaper/bing_info.txt | head -1 | cut -d: -f2- | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+          if [ -f "bing/bing_info.txt" ]; then
+            IMAGE_TITLE=$(grep "标题:" bing/bing_info.txt | head -1 | cut -d: -f2- | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
           else
             IMAGE_TITLE="必应壁纸"
           fi
@@ -171,16 +177,3 @@ jobs:
         else
           echo "没有检测到文件变化，跳过提交"
         fi
-
-    # 部署到 GitHub Pages
-    - name: Setup Pages
-      uses: actions/configure-pages@v5
-      
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: '.'
-        
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
