@@ -1,4 +1,4 @@
-name: 16:30获取Bing壁纸并压缩
+name: 16:30 获取bing.jpg壁纸并压缩
 
 on:
   schedule:
@@ -14,6 +14,8 @@ jobs:
     
     permissions:
       contents: write
+      pages: write
+      id-token: write
 
     steps:
     - name: Checkout repository
@@ -169,3 +171,16 @@ jobs:
         else
           echo "没有检测到文件变化，跳过提交"
         fi
+
+    # 部署到 GitHub Pages
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+      
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: '.'
+        
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
