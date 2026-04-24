@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: 18:00 Deploy static content to Pages
+name: /1:00 Deploy static content to Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -8,7 +8,7 @@ on:
   
   # 每天 UTC 10:00 = 北京时间 18:00 自动运行
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '0 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
