@@ -31,27 +31,36 @@ jobs:
         run: |
           curl -L -o ./epg/seven-days.xml.gz \
             https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
-          echo "文件下载完成："
+          echo "EPG文件下载完成："
           ls -lh ./epg/seven-days.xml.gz
 
-      # 步骤4：配置 Git
+      # 步骤4：下载 README.md 到根目录
+      - name: 下载 README.md
+        run: |
+          curl -L -o ./README.md \
+            https://raw.githubusercontent.com/plsy1/epg/main/README.md
+          echo "README.md 下载完成："
+          ls -lh ./README.md
+
+      # 步骤5：配置 Git
       - name: 配置 Git
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-      # 步骤5：提交并推送
+      # 步骤6：提交并推送
       - name: 提交并推送
         run: |
-          # 添加文件到暂存区
+          # 添加所有更改的文件到暂存区
           git add ./epg/seven-days.xml.gz
+          git add ./README.md
           
           # 检查是否有变更需要提交
           if git diff --cached --quiet; then
             echo "文件内容没有变化，跳过提交"
           else
             echo "检测到文件变化，准备提交..."
-            git commit -m "自动更新 EPG 数据 - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git commit -m "自动更新 EPG 数据及文档 - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             git push origin HEAD:master
             echo "推送完成！"
           fi
