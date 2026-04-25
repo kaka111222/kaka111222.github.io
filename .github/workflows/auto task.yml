@@ -1,9 +1,9 @@
 name: Daily Tasks (Bing Wallpaper, EPG Sync, Pages Deploy)
 
 on:
-  # 每天 UTC 9:00 (北京时间 8:00,17:00) 执行一次
+  # 每1小时运行一次
   schedule:
-    - cron: '0 0,9 * * *'
+    - cron: '0 */1 * * *'
   
   # 支持手动触发
   workflow_dispatch:
