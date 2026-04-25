@@ -1,7 +1,7 @@
 {
   "date": "2026-04-25",
-  "title": "A tribute to trees",
-  "copyright": "Forest hammock of slash pine and saw palmetto, Everglades National Park, Florida (© Mary Liz Austin/Alamy)",
+  "title": "Breaking the penguin rules",
+  "copyright": "Galápagos penguins swimming, Galápagos Islands, Ecuador (© Henley Spiers/Nature Picture Library)",
   "image_url": "bing/bing.jpg",
   "original_url": "https://www.bing.com$(echo "$JSON_RESPONSE" | jq -r .images[0].url)",
   "resolution": "1920x1080",
