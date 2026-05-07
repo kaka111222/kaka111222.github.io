@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-27",
-  "title": "Glass with class",
-  "copyright": "The glass dome of Galleria Vittorio Emanuele II, Milan, Italy (© PhillipMinnis/Getty Images)",
+  "date": "2026-05-06",
+  "title": "Plains under pressure",
+  "copyright": "Thunderstorm above the plains, Bulgaria (© Revolu7ion93/Getty Images)",
   "image_url": "bing/bing.jpg",
   "original_url": "https://www.bing.com$(echo "$JSON_RESPONSE" | jq -r .images[0].url)",
   "resolution": "1920x1080",
