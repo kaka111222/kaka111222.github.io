@@ -1,7 +1,7 @@
 {
-  "date": "2026-05-25",
-  "title": "Where silence bears names",
-  "copyright": "Memorial Amphitheater at Arlington National Cemetery, Arlington, Virginia (© idesignimages/Getty Images)",
+  "date": "2026-05-26",
+  "title": "A season written in lupine",
+  "copyright": "Lupine flowers in bloom, Northern California (© Jeffrey Lewis/Tandem Stills + Motion)",
   "image_url": "bing/bing.jpg",
   "original_url": "https://www.bing.com$(echo "$JSON_RESPONSE" | jq -r .images[0].url)",
   "resolution": "1920x1080",
