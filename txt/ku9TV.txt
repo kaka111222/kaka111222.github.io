@@ -1712,8 +1712,8 @@ DAZN体育2,rtmp://f13h.mine.nu/sat/tv741
 
 
 🔆 学习强国,#genre#
-山东卫视,video://https://www.xuexi.cn/xxqg.html?id=15d651d2389d46ba86eda710fcc1f68b$学习强国
-北京卫视,video://https://www.xuexi.cn/xxqg.html?id=b2e730bcb7e8468ea028135c602a561d$学习强国
+山东卫视,video://https://www.xuexi.cn/xxqg.html?id=15d651d2389d46ba86eda710fcc1f68b
+北京卫视,video://https://www.xuexi.cn/xxqg.html?id=b2e730bcb7e8468ea028135c602a561d
 东方卫视,video://https://www.xuexi.cn/xxqg.html?id=b03d633a64f14712b1b78ad5336fac2c$学习强国
 天津卫视,video://https://www.xuexi.cn/xxqg.html?id=f34309e518fb41579c46cbef4d56c51d$学习强国
 江苏卫视,video://https://www.xuexi.cn/xxqg.html?id=f485de429c064333b7cce20c6bbbc905$学习强国
