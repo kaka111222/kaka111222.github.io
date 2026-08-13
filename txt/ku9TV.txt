@@ -229,44 +229,8 @@ CGTN,http://10.26.0.5:4000/udp/239.253.224.189:8000
 
 
 
-🌐  江苏,#genre#,DE=-1#SC=-1#HEADERS={"referer":"https://api.chinaaudiovisual.cn"}#JS=null#PB=null#HOST=null#PBO=0#IJKAD=-1#TSO=0"
+🌐  江苏,#genre#
 
-连云港,https://zjcn-live-play.jstv.com/live/lianyungang.m3u8
-江苏卫视,https://zjcn-live-play.jstv.com/live/jsws_live.m3u8
-江苏城市,https://zjcn-live-play.jstv.com/live/jscs_live.m3u8
-江苏影视,https://zjcn-live-play.jstv.com/live/jsys_live.m3u8
-江苏综艺,https://zjcn-live-play.jstv.com/live/jszy_live.m3u8
-江苏教育,https://zjcn-live-play.jstv.com/live/jsjy_live.m3u8
-江苏体育,https://zjcn-live-play.jstv.com/live/jsxx_live.m3u8
-江苏新闻,https://zjcn-live-play.jstv.com/live/jsxw_live.m3u8
-江苏国际,https://zjcn-live-play.jstv.com/live/jsgj_live.m3u8
-优漫卡通,https://zjcn-live-play.jstv.com/live/ymkt_live.m3u8
-南京,https://zjcn-live-play.jstv.com/live/nanjing.m3u8
-苏州,https://zjcn-live-play.jstv.com/live/suzhou.m3u8
-常州,https://zjcn-live-play.jstv.com/live/changzhou.m3u8
-吴江,https://zjcn-live-play.jstv.com/live/wujiang.m3u8
-六合,https://zjcn-live-play.jstv.com/live/luhe.m3u8
-无锡,https://zjcn-live-play.jstv.com/live/wuxi.m3u8
-徐州,https://zjcn-live-play.jstv.com/live/xuzhou.m3u8
-江阴,https://zjcn-live-play.jstv.com/live/jiangyin.m3u8
-邳州,https://zjcn-live-play.jstv.com/live/pizhou.m3u8
-新沂,https://zjcn-live-play.jstv.com/live/xinyi.m3u8
-贾汪,https://zjcn-live-play.jstv.com/live/jiawang.m3u8
-铜山,https://zjcn-live-play.jstv.com/live/tongshan.m3u8
-武进,https://zjcn-live-play.jstv.com/live/wujin.m3u8
-南通,https://zjcn-live-play.jstv.com/live/nantong.m3u8
-淮安,https://zjcn-live-play.jstv.com/live/huaian.m3u8
-响水,https://zjcn-live-play.jstv.com/live/xiangshui.m3u8
-盐城,https://zjcn-live-play.jstv.com/live/yancheng.m3u8
-盱眙,https://zjcn-live-play.jstv.com/live/xuyi.m3u8
-洪泽,https://zjcn-live-play.jstv.com/live/hongze.m3u8
-镇江,https://zjcn-live-play.jstv.com/live/zhenjiang.m3u8
-泰州,https://zjcn-live-play.jstv.com/live/taizhou.m3u8
-泰兴,https://zjcn-live-play.jstv.com/live/taixing.m3u8
-兴华,https://zjcn-live-play.jstv.com/live/xinghua.m3u8
-靖江,https://zjcn-live-play.jstv.com/live/jingjiang.m3u8
-宿迁,https://zjcn-live-play.jstv.com/live/suqian.m3u8
-泗阳,https://zjcn-live-play.jstv.com/live/siyang.m3u8
 江苏卫视,video://https://live.jstv.com/?channelId=534
 江苏城市,video://https://live.jstv.com?channelId=535
 江苏综艺,video://https://live.jstv.com?channelId=556
@@ -360,13 +324,6 @@ CGTN,http://10.26.0.5:4000/udp/239.253.224.189:8000
 
 
 🌐  杭州,#genre#
-杭州综合,http://A/ku9/js/hztv.js?id=hzzh
-杭州西湖明珠,http://A/ku9/js/hztv.js?id=hzmz
-杭州生活,http://A/ku9/js/hztv.js?id=hzsh
-杭州影视,http://A/ku9/js/hztv.js?id=hzys
-杭州青少体育,http://A/ku9/js/hztv.js?id=hzqsty
-杭州导视,http://A/ku9/js/hztv.js?id=hzds
-富阳,http://A/ku9/js/hztv.js?id=fyxwzh
 杭州综合,video://https://www.hoolo.tv/live/
 杭州西湖明珠,video://https://tv.hoolo.tv/xhmz/
 杭州生活,video://https://tv.hoolo.tv/hzsh/
@@ -376,15 +333,7 @@ CGTN,http://10.26.0.5:4000/udp/239.253.224.189:8000
 
 
 山东,#genre#
-山东卫视,http://A/PLTV/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=sdws&channelid=1
-山东新闻,http://A/PLTV/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=xwpd&channelid=3
-山东齐鲁,http://A/PLTV/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=qlpd&channelid=5
-山东体育,http://A/PLTV/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=txyx&channelid=7
-山东生活,http://A/PLTV/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=shpd&channelid=9
-山东综艺,http://A/PLTV/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=zypd&channelid=11
-山东文旅,http://A/PLTV/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=wlpd&channelid=13
-山东农科,http://A/PLTV/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=nkpd&channelid=15
-山东少儿,http://A/PLTV/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=sepd&channelid=17
+
 山东卫视,video://https://v.iqilu.com/live/sdtv/
 山东齐鲁,video://https://v.iqilu.com/live/qlpd/
 山东体育,video://https://v.iqilu.com/live/typd/
@@ -395,20 +344,6 @@ CGTN,http://10.26.0.5:4000/udp/239.253.224.189:8000
 山东文旅,video://https://v.iqilu.com/live/yspd/
 山东少儿,video://https://v.iqilu.com/live/sepd/
 
-日照综合,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=rzdst&channelid=100017
-聊城,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=lcdst&channelid=100021
-滨州,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=bzdst&channelid=100022
-枣庄,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=zzdst&channelid=100023
-东营,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=dydst&channelid=100011
-济南,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=jndst&channelid=29883
-淄博,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=zbdst&channelid=100010
-烟台,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=ytdst&channelid=100012
-潍坊,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=wfdst&channelid=100013
-泰安,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=tadst&channelid=100015
-威海,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=whdst&channelid=100016
-临沂,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=lydst&channelid=100019
-德州,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=dzdst&channelid=100020
-菏泽,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=hzdst&channelid=100024
 临沂综合,video://https://www.ilinyi.net/cms/tv/1020403
 临沂经济,video://https://www.ilinyi.net/cms/tv/36417907
 临沂公共,video://https://www.ilinyi.net/cms/tv/1020769
@@ -443,7 +378,6 @@ CGTN,http://10.26.0.5:4000/udp/239.253.224.189:8000
 青岛3,webview://http://www.qtv.com.cn/live/tv/tv_qtv3.shtml
 青岛4,webview://http://www.qtv.com.cn/live/tv/tv_qtv4.shtml
 青岛5,webview://http://www.qtv.com.cn/live/tv/tv_qtv5.shtml
-青岛6,webview://http://www.qtv.com.cn/live/tv/tv_qtv6.shtml
 
 青岛五四广场,video://https://www.qtv.com.cn/live/system/2017/04/28/014282221.shtml
 青岛奥帆中心,video://http://www.qtv.com.cn/live/system/2017/04/28/014282223.shtml
@@ -462,7 +396,6 @@ CGTN,http://10.26.0.5:4000/udp/239.253.224.189:8000
 青岛蓝睛频道,video://https://lanjingshare.qtvnews.com/share-html/lanjing/share/tv.html?programId=14
 
 日照,#genre#
-日照综合,http://A/ku9/js/shandongsd.js?key=关注公共号❤️❤️：AI科技生活&id=rzdst&channelid=100017
 日照综合,video://http://fxkhd.rzw.com.cn/?_hgOutLink=live/livedetail&channel_id=6
 日照科教,video://http://fxkhd.rzw.com.cn/?_hgOutLink=live/livedetail&channel_id=12
 日照公共,video://http://fxkhd.rzw.com.cn/?_hgOutLink=live/livedetail&channel_id=13
@@ -473,9 +406,6 @@ CGTN,http://10.26.0.5:4000/udp/239.253.224.189:8000
 岚山,video://https://iapp.ilanshan.com/share/dHZsLTI4OS0x.html
 
 临沂,#genre#
-临沂综合,video://https://www.ilinyi.net/cms/tv/1020403
-临沂经济,video://https://www.ilinyi.net/cms/tv/36417907
-临沂公共,video://https://www.ilinyi.net/cms/tv/1020769
 沂水综合,video://https://app.litenews.cn/share/dHZsLTE0NS0x.html
 沂水生活,video://https://app.litenews.cn/share/dHZsLTE0NS0y.html
 费县综合,video://https://iapp.feixianshoufa.cn/share/dHZsLTQxLTExOQ.html
@@ -516,11 +446,7 @@ CGTN,http://10.26.0.5:4000/udp/239.253.224.189:8000
 山东教育卫视,video://https://www.sdetv.com.cn/edu/pc/live/index.html
 
 东营,#genre#
-东营新闻综合,video://https://www.dongyingnews.cn/v/tv/?id=0
-东营新闻综合,video://https://ady.dongyingnews.cn/share/dHZsLTUzNy0x.html
-东营公共,video://https://www.dongyingnews.cn/v/tv/?id=1
 东营公共,video://https://ady.dongyingnews.cn/share/dHZsLTUzNy0z.html
-东营科教,video://https://www.dongyingnews.cn/v/tv/?id=2
 东营科教,video://https://ady.dongyingnews.cn/share/dHZsLTUzNy03.html
 东营区新闻综合,video://https://iapp.zhidongyingapp.com/share/dHZsLTE2My01.html
 东营区科教影视,video://https://iapp.zhidongyingapp.com/share/dHZsLTE2My03.html
@@ -537,7 +463,7 @@ CGTN,http://10.26.0.5:4000/udp/239.253.224.189:8000
 烟台,video://http://m.jiaodong.net/zhifuapp/dianshi/xwzhpd.html
 烟台公共,video://http://m.jiaodong.net/zhifuapp/dianshi/ggpd.html
 长岛,video://https://iapp.changdaohao.cn/share/dHZsLTE3NS0x.html
-福山X,video://https://iapp.fuzaifushan.cn/share/dHZsLTE4OS00.html
+福山,video://https://iapp.fuzaifushan.cn/share/dHZsLTE4OS00.html
 福山生活,video://https://iapp.fuzaifushan.cn/share/dHZsLTE4OS01.html
 海阳综合,video://https://iapp.hyzc.cn/share/dHZsLTI1NS0x.html
 莱山综合,video://https://app.litenews.cn/share/dHZsLTI0NS00.html
@@ -546,7 +472,7 @@ CGTN,http://10.26.0.5:4000/udp/239.253.224.189:8000
 莱阳民生综艺,video://https://iapp.laiyangrongmei.cn/share/dHZsLTI0MS03.html
 牟平综合,video://https://iapp.mprmt.com/share/dHZsLTI4MS0x.html
 蓬莱综合,video://https://iapp.xianjingpenglai.cn/share/dHZsLTEwOS0x.html
-蓬莱综艺X,video://https://iapp.xianjingpenglai.cn/share/dHZsLTEwOS0y.html
+蓬莱综艺,video://https://iapp.xianjingpenglai.cn/share/dHZsLTEwOS0y.html
 栖霞综合,video://https://iapp.aiqixiaapp.com/share/dHZsLTE2NS0xMg.html
 栖霞苹果,video://https://iapp.aiqixiaapp.com/share/dHZsLTE2NS0xNA.html
 招远综合,video://https://iapp.zhaoyuanrongmei.com.cn/share/dHZsLTU1LTI.html
@@ -570,14 +496,14 @@ CGTN,http://10.26.0.5:4000/udp/239.253.224.189:8000
 张店二套,video://https://iapp.aizhangdian.com/share/dHZsLTEwMS02.html
 
 潍坊,#genre#
-潍坊新闻综合,video://http://www.wfcmw.cn/wfrtv_pdLive.html?tv=1
 潍坊新闻综合,video://https://iapp.wfcmw.cn/share/dHZsLTYzNS0x.html
-潍坊经济生活,video://http://www.wfcmw.cn/wfrtv_pdLive.html?tv=2
 潍坊经济生活,video://https://iapp.wfcmw.cn/share/dHZsLTYzNS01.html
-潍坊影视综艺,video://http://www.wfcmw.cn/wfrtv_pdLive.html?tv=3
 潍坊影视综艺,video://https://iapp.wfcmw.cn/share/dHZsLTYzNS03.html
-潍坊科教文旅,video://http://www.wfcmw.cn/wfrtv_pdLive.html?tv=4
 潍坊科教文旅,video://https://iapp.wfcmw.cn/share/dHZsLTYzNS05.html
+潍坊新闻综合,video://http://www.wfcmw.cn/wfrtv_pdLive.html?tv=1
+潍坊经济生活,video://http://www.wfcmw.cn/wfrtv_pdLive.html?tv=2
+潍坊影视综艺,video://http://www.wfcmw.cn/wfrtv_pdLive.html?tv=3
+潍坊科教文旅,video://http://www.wfcmw.cn/wfrtv_pdLive.html?tv=4
 安丘,video://https://iapp.aianqiu.cn/share/dHZsLTEzNy0z.html
 安丘民生,video://https://iapp.aianqiu.cn/share/dHZsLTEzNy00.html
 滨海区,video://https://iapp.wfbhrmt.cn/share/dHZsLTE5OS0x.html
@@ -600,15 +526,12 @@ CGTN,http://10.26.0.5:4000/udp/239.253.224.189:8000
 诸城生活娱乐X,video://https://iapp.52zhucheng.cn/share/dHZsLTExNS0yNQ.html
 
 枣庄,#genre#
-枣庄新闻综合,video://http://www.zztvzd.com?_hgOutLink=live/livedetail&channel_id=5
 枣庄新闻综合,video://https://app.zzxwcm.cn/application/tenma01ds_tvradio/view/web/
 枣庄新闻综合,video://http://www.lncm.cn/zhibo/list.php?catid=63
 
-枣庄经济生活,video://http://www.zztvzd.com?_hgOutLink=live/livedetail&channel_id=7
 枣庄经济生活,video://https://app.zzxwcm.cn/application/tenma01ds_tvradio/view/web/
 枣庄经济生活,video://http://www.lncm.cn/zhibo/list-64.html
 
-枣庄公共,video://http://www.zztvzd.com/?_hgOutLink=live/livedetail&channel_id=8
 枣庄公共,video://https://app.zzxwcm.cn/application/tenma01ds_tvradio/view/web/
 枣庄公共,video://http://www.lncm.cn/mobile/zhibo/show-4.html
 
